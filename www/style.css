@@ -96,7 +96,7 @@ body {
 }
 
 .messages .message.left .avatar:before {
-    content: 'SAM';
+    content: 'Bee';
     color: RGBA(255, 255, 255, 0.70);
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@ body {
   color: #fff;
 }
 .messages .message.right .avatar:before {
-    content: 'Du';
+    content: 'You';
     color: RGBA(255, 255, 255, 0.70);
     display: flex;
     justify-content: center;

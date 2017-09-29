@@ -3,8 +3,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: demo42
-  host: demo42
+  name: beebot
+  host: beebot
   disk_quota: 1024M
   services:
-  - demo42-cloudantNoSQLDB
+  - beebot-cloudantNoSQLDB

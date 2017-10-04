@@ -61,7 +61,7 @@
         })
 
         // call for initial Message
-        $.post('/conversation', {message: "", context: {}} )
+        $.post('/conversation', {message: " ", context: {}} )
         .done((data)=>{
             context = data.context;
             addMessage(data.output.text, 'left');
